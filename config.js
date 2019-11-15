@@ -3,7 +3,7 @@ const
   dist = 'assets/',
   pkg = require('./package.json'),
 
-  localURL = 'localhost:8000',
+  localURL = '127.0.0.1:8000',
   faviconSnippet = 'favicon.html',
 
   pngquant = require('imagemin-pngquant')

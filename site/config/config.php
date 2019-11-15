@@ -14,7 +14,7 @@ return [
   // 'panel' =>[
   //   'install' => true
   // ],
-
+  
   // Thumbnail options
   'thumbs' => require_once 'thumbs.php',
 
