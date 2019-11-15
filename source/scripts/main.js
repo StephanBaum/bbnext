@@ -1,5 +1,8 @@
 'use strict';
 
+import { gsap } from "gsap";
+import { paperjs } from "paper";
+
 import './partials/cursor';
 import './partials/magnetize';
 
