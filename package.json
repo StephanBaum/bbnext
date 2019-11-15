@@ -95,5 +95,9 @@
         "off"
       ]
     }
+  },
+  "dependencies": {
+    "@barba/core": "^2.4.0",
+    "gsap": "^2.1.3"
   }
 }
