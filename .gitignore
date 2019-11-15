@@ -10,6 +10,12 @@ Icon
 /node_modules
 /vendor
 
+# Page Content
+# -----
+
+/content
+
+
 # Temporary files
 # ---------------
 
