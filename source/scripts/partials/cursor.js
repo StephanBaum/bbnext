@@ -1,5 +1,3 @@
-require("simplex-noise");
-import 'paper';
 
 // set the starting position of the cursor outside of the screen
 let clientX = -100;
