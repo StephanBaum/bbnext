@@ -1,0 +1,40 @@
+@import
+  '../vendor/bourbon/bourbon',
+  '../vendor/neat/neat',
+  'cursor'
+;
+
+$neat-grid: (
+  columns: 12,
+  gutter: 20px,
+);
+
+body {
+  cursor: none !important;
+  font-size: modular-scale(2);
+  height: 100vh;
+  overflow: hidden;
+  overflow-x: hidden;
+  width: 100vw;
+}
+
+header {
+  @include position(absolute, 0);
+
+  .logo {
+    @include position(absolute, $margin-edge);
+    @include size(auto, 1em);
+  }
+  .menu {
+    @include position(absolute, $margin-edge $margin-edge null null);
+    @include size(auto, 1.4em);
+  }
+  .social {
+    @include position(absolute, null $margin-edge $margin-edge null);
+    @include size(auto, 1em);
+  }
+  .showreel {
+    @include position(absolute, null null $margin-edge $margin-edge);
+    @include size(auto, 1em);
+  }
+}
