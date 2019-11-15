@@ -10,3 +10,4 @@ listed:
   extends: sections/projects
   headline: Published Projects
   layout: cards
+  
