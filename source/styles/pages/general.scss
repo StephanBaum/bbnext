@@ -12,10 +12,10 @@ $neat-grid: (
 body {
   cursor: none !important;
   font-size: modular-scale(2);
-  height: 100vh;
+  height: 100%;
   overflow: hidden;
   overflow-x: hidden;
-  width: 100vw;
+  width: 100%;
 }
 
 header {
@@ -37,4 +37,12 @@ header {
     @include position(absolute, null null $margin-edge $margin-edge);
     @include size(auto, 1em);
   }
+}
+
+section .main {
+  display: grid;
+  height: 100%;
+  width: 100%;
+  justify-content: center;
+  align-content: center;
 }
