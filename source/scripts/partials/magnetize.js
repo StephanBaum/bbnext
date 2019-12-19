@@ -1,4 +1,6 @@
-require("gsap");
+import { gsap } from "gsap";
+gsap.registerPlugin(gsap);
+
 
 function magnetize(el, e){
   var mX = e.pageX,

@@ -2,6 +2,8 @@
 
 <?php snippet('cursor') ?>
 
+<?php snippet('menu') ?>
+
 <?php snippet('main-content') ?>
 
 <?php snippet('navigation') ?>

@@ -98,7 +98,7 @@
   },
   "dependencies": {
     "@barba/core": "^2.4.0",
-    "gsap": "^3.0.1",
+    "gsap": "^3.0.4",
     "lottie-web": "^5.5.9",
     "paper": "^0.12.3",
     "simplex-noise": "^2.4.0"
