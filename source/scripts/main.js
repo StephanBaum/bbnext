@@ -6,6 +6,8 @@ import { paperjs } from "paper";
 import './partials/cursor';
 import './partials/magnetize';
 
+import './navigation/navigation';
+
 /*
  * Importing functions ..
  */

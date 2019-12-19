@@ -1,0 +1,25 @@
+Title: TestProjekt
+
+----
+
+Headline: Testprojekt
+
+----
+
+Year: 2019
+
+----
+
+Tags: Motion, Erklärvideo
+
+----
+
+Agentur: Explanideo
+
+----
+
+Intro: Das ist der kleine Anlesertext der zu beginn kommt
+
+----
+
+Text: Das ist der Große Text der im Projekt zu sehen ist
