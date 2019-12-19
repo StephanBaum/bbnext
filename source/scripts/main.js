@@ -1,12 +1,13 @@
 'use strict';
 
+import { gsap } from "gsap";
+gsap.registerPlugin(gsap);
 
 // import { paper } from "paper";
 
 import './partials/cursor';
-import './partials/magnetize';
-
 import './partials/navigation/navigation';
+// import './partials/page-transitions';
 
 /*
  * Importing functions ..

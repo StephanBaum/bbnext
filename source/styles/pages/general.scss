@@ -1,48 +1,55 @@
-@import
-  '../vendor/bourbon/bourbon',
-  '../vendor/neat/neat',
-  'cursor'
-;
-
-$neat-grid: (
-  columns: 12,
-  gutter: 20px,
-);
+// $neat-grid: (
+//   columns: 12,
+//   gutter: 20px,
+// );
 
 body {
   cursor: none !important;
   font-size: modular-scale(2);
   height: 100%;
-  overflow: hidden;
-  overflow-x: hidden;
+  // overflow: hidden;
+  // overflow-x: hidden;
   width: 100%;
 }
 
 header {
-  @include position(absolute, 0);
-
   .logo {
-    @include position(absolute, $margin-edge);
+    @include position(fixed, $margin-edge);
     @include size(auto, 1em);
   }
   .menu {
-    @include position(absolute, $margin-edge $margin-edge null null);
+    @include position(fixed, $margin-edge $margin-edge null null);
     @include size(auto, 1.4em);
   }
   .social {
-    @include position(absolute, null $margin-edge $margin-edge null);
+    @include position(fixed, null $margin-edge $margin-edge null);
     @include size(auto, 1em);
   }
   .showreel {
-    @include position(absolute, null null $margin-edge $margin-edge);
+    @include position(fixed, null null $margin-edge $margin-edge);
     @include size(auto, 1em);
+  }
+}
+
+nav{
+  font-size: 1em;
+  font-family: monospace;
+  display:flex;
+  justify-content: center;
+  align-content: center;
+
+
+  #menu{
+    li{
+      a{
+        text-transform: uppercase;
+        letter-spacing: 1px;
+        text-decoration: none;
+      }
+    }
   }
 }
 
 .main {
   display: grid;
-  height: 100%;
-  width: 100%;
-  justify-content: center;
-  align-content: center;
 }

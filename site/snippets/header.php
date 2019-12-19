@@ -14,4 +14,4 @@
       }
     ?>
   </head>
-  <body>
+  <body data-barba="wrapper">

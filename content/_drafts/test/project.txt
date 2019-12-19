@@ -1,0 +1,25 @@
+Title: test
+
+----
+
+Headline: test1
+
+----
+
+Year: 2018
+
+----
+
+Tags: 
+
+----
+
+Agentur: 
+
+----
+
+Intro: ghfgh
+
+----
+
+Text: fghfgh
